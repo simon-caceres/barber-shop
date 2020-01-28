@@ -1,8 +1,14 @@
 footer section
 {
-  background-color: black;
-}
+  background-color: $Eerie-black;
+  height: 100px;
 
+}
+.logo-footer
+{
+  width: 20%;
+  padding-top: 30px;
+}
 interno-naomi, img-naomi
 {
   display: inline-block;
@@ -35,4 +41,11 @@ interno-naomi, img-naomi
   font-family: 'Roboto', sans-serif;
   width: 10px;
   color: $nickel;
+}
+
+.botones
+{
+  background-color: $light-gray;
+  height: 100px;
+  padding-top: 30px;
 }

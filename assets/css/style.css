@@ -3,6 +3,7 @@ header {
   height: 800px;
   background-repeat: no-repeat;
   image-rendering: -webkit-optimize-contrast;
+  background-size: cover;
 }
 
 .logo {
@@ -33,7 +34,13 @@ h1 {
 }
 
 footer section {
-  background-color: black;
+  background-color: #121619;
+  height: 100px;
+}
+
+.logo-footer {
+  width: 20%;
+  padding-top: 30px;
 }
 
 interno-naomi, img-naomi {
@@ -62,6 +69,12 @@ interno-naomi, img-naomi {
   font-family: "Roboto", sans-serif;
   width: 10px;
   color: #6C6E70;
+}
+
+.botones {
+  background-color: #D1D1D1;
+  height: 100px;
+  padding-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
