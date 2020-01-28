@@ -2,15 +2,34 @@ header {
   background-image: url(C:/Users/DivalUser/Desktop/retos/barbershop/assets/images/post-image.jpg);
   height: 800px;
   background-repeat: no-repeat;
-  width: fluid;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.logo {
+  width: 30%;
+  padding-left: 10px;
+}
+
+.inten {
+  background-color: #fff;
+}
+
+header img {
+  width: 90%;
 }
 
 h1 {
-  color: #FFF;
+  color: #fff;
   font-family: "Playfair Display", serif;
   width: 70px large;
   padding-top: 350px;
   text-align: center;
+}
+
+.main {
+  font-family: "Roboto", sans-serif;
+  width: 16px medium;
+  color: #6C6E70;
 }
 
 footer section {
@@ -19,6 +38,30 @@ footer section {
 
 interno-naomi, img-naomi {
   display: inline-block;
+}
+
+.imgRedonda {
+  width: 200px;
+  height: 200px;
+  border-radius: 120px;
+}
+
+.nombre {
+  font-family: "Playfair Display", italic;
+  color: #121619;
+  width: 30px;
+}
+
+.naotrahi, .depelos {
+  font-family: "Playfair Display", Regular;
+  color: #ECBCBA;
+  width: 12px;
+}
+
+.interno-naomi {
+  font-family: "Roboto", sans-serif;
+  width: 10px;
+  color: #6C6E70;
 }
 
 /*# sourceMappingURL=style.css.map */

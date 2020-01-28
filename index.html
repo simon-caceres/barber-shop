@@ -10,7 +10,7 @@
     MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
     <!--Google Font: Raleway (Regular, Bold)-->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
     <!--Font Awesome 5.6.3-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
@@ -20,24 +20,24 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo"></a>
+      <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" class="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Nosotros<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Trabajos</a>
-          <a class="nav-item nav-link" href="#">Blog</a>
-          <a class="nav-item nav-link disabled" href="#">Horas</a>
-          <a class="nav-item nav-link disabled" href="#">Contacto</a>
+          <a class="nav-item nav-link iten" href="#">Nosotros<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link iten" href="#">Trabajos</a>
+          <a class="nav-item nav-link iten" href="#">Blog</a>
+          <a class="nav-item nav-link iten" href="#">Horas</a>
+          <a class="nav-item nav-link iten" href="#">Contacto</a>
         </div>
       </div>
     </nav>
-    <header>
+    <header class ="header">
       <h1>5 formas de cuidar tu corte de cabello</h1>
     </header>
-
+  <main class="main">
     <article class ="interno-blog">
       <p>
         12 de abril 2018
@@ -55,31 +55,36 @@
         Le Moustache
       </p>
     </article>
+  </main>
+    <button type="button" class="btn btn-secondary btn-sm" name="button">compartir</button>
+    <button type="button" class="btn btn-secondary btn-sm" name="button">comentar en Twitter</button>
+    <br>
+    <hr>
+    <br>
 
-    <table>
-    <tr>
-      <td>
-        <strong>
-          <img src="assets/images/naomi-thai.png" alt="naomi" class=" img-naomi">
-        </strong>
-      </td>
-      <td>
-        <strong>
-            <h3>Naomi Thai</h3>
-            <h2>@Naotrahi</h2>
-            <h2>depelos.com</h2>
-        </strong>
-      </td>
-      <td>
-        <article class=" interno-naomi">
-        blablalblalblalblalblalbla blalblalbalblabla blalblalblablalbllablla blalblalblabllabl lablalbllablalblallblalb lblbalblalblalblalbalblalb blaablalblbalbal balbllalbalballalb blalblblablalbl blalbalblblalab blallalblbabllbalblbalbalbla lbalba
-      </article>
-    </td>
-    </tr>
-    </table>
 
-    <nav aria-label="Page navigation example text-center">
-      <ul class="pagination">
+    <div class="containter">
+      <div class="row">
+        <div class="col">
+          <img src="assets/images/naomi-thai.png" alt="naomi" class=" imgRedonda">
+        </div>
+        <div class ="col">
+            <h4 class="nombre">Naomi Thai</h4>
+            <h5 class="naotrahi">@Naotrahi</h5>
+            <h5 class="depelos">depelos.com</h5>
+        </div>
+      <div clas="col-6 interno-naomi">
+        <p>aldjskajdkslajdklsajdklsajkldjksaldjsklajdklsajdlksjal</p>
+        <p>skadsjahkdjhskjahdkjsahdkjshakjdhksjah</p>
+        <p>adjskajdklsjakldjsklajdklsaj</p>
+
+      </div>
+    </div>
+  </div>
+
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
         <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
         <li class="page-item"><a class="page-link" href="#">1</a></li>
         <li class="page-item"><a class="page-link" href="#">2</a></li>
@@ -88,7 +93,7 @@
       </ul>
     </nav>
 
-    <footer>
+    <footer class ="footer">
       <section class="text-center">
         <img src="assets/images/logo.png" alt="logo-footer">
       </section>

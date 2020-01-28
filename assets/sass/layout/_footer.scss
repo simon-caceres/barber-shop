@@ -7,3 +7,32 @@ interno-naomi, img-naomi
 {
   display: inline-block;
 }
+
+.imgRedonda
+{
+    width:200px;
+    height:200px;
+    border-radius:120px;
+}
+
+.nombre
+{
+  font-family: 'Playfair Display', italic;
+  color: $Eerie-black;
+  width: 30px;
+}
+
+.naotrahi, .depelos
+{
+  font-family: 'Playfair Display', Regular;
+  color: $spanish-pink;
+  width: 12px;
+}
+
+
+.interno-naomi
+{
+  font-family: 'Roboto', sans-serif;
+  width: 10px;
+  color: $nickel;
+}
