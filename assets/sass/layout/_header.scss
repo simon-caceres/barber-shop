@@ -1,3 +1,8 @@
+body
+{
+  box-sizing: content-box;
+}
+
 header
 {
   background-image: url(post-image.jpg);
@@ -15,14 +20,16 @@ header
 .iten
 {
   color: $white;
-  align-items: right;
+  text-align: right;
 }
 
 .header
 {
   color: $white;
-  font-family:  'Playfair Display', serif;
-  font-size: 180px;
+  font-family:  'Playfair Display' ;
+  font-style: italic;
+  font-size: 2800px;
+  font-weight: bold;
   padding-top: 450px;
   text-align: center;
 }

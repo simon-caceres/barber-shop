@@ -1,3 +1,7 @@
+body {
+  box-sizing: content-box;
+}
+
 header {
   background-image: url(post-image.jpg);
   height: 800px;
@@ -13,13 +17,15 @@ header {
 
 .iten {
   color: #fff;
-  align-items: right;
+  text-align: right;
 }
 
 .header {
   color: #fff;
-  font-family: "Playfair Display", serif;
-  font-size: 180px;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 2800px;
+  font-weight: bold;
   padding-top: 450px;
   text-align: center;
 }
@@ -29,14 +35,16 @@ header {
   font-size: 16px;
   width: 16px medium;
   color: #6C6E70;
-  box-sizing: unset;
   display: block;
-  padding: 55px;
+  padding: 65px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
 }
 
 footer section {
   background-color: #121619;
-  height: 100px;
+  height: 200px;
 }
 
 .logo-footer {
@@ -85,7 +93,9 @@ interno-naomi, img-naomi {
 
 .nthai {
   padding: 70px;
-  content-box: 150px;
+  padding-left: 150px;
+  padding-right: 350px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
