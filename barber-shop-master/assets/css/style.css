@@ -16,14 +16,10 @@ header {
   align-items: right;
 }
 
-header img {
-  width: 90%;
-}
-
-h1 {
+.header {
   color: #fff;
   font-family: "Playfair Display", serif;
-  width: 70px large;
+  font-size: 180px;
   padding-top: 450px;
   text-align: center;
 }
@@ -80,14 +76,11 @@ interno-naomi, img-naomi {
   background-color: #D1D1D1;
   height: 100px;
   padding-top: 30px;
+  padding-left: 50px;
 }
 
 .nthai {
-  padding: 50px;
-}
-
-.botones {
-  padding-left: 50px;
+  padding: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */
