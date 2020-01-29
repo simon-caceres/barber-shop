@@ -37,8 +37,6 @@ header {
   color: #6C6E70;
   display: block;
   padding: 65px;
-  padding-left: 70px;
-  padding-right: 70px;
   text-align: justify;
 }
 
@@ -65,18 +63,15 @@ interno-naomi, img-naomi {
 .nombre {
   font-family: "Playfair Display", italic;
   color: #121619;
-  width: 30px;
 }
 
 .naotrahi, .depelos {
   font-family: "Playfair Display", Regular;
   color: #ECBCBA;
-  width: 12px;
 }
 
 .interno-naomi {
   font-family: "Roboto", sans-serif;
-  width: 10px;
   color: #6C6E70;
 }
 
@@ -92,9 +87,9 @@ interno-naomi, img-naomi {
 }
 
 .nthai {
-  padding: 70px;
-  padding-left: 150px;
-  padding-right: 350px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
 }
 
